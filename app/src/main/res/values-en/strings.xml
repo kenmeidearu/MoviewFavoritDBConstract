@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Submission4</string>
+    <string name="title">Title</string>
+    <string name="rating">Rating</string>`
+    <string name="imgdes">Images</string>
+    <string name="detail">Details</string>
+    <string name="detaildescription">testing testing</string>
+    <string name="release">Release</string>
+    <string name="search">Search</string>
+    <string name="play">Now Playing</string>
+    <string name="cooming">UpComming</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="setting">Setting</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ind">Indonesia</string>
+    <string name="eng">English</string>
+    <string name="favorit">Favorit</string>
+</resources>

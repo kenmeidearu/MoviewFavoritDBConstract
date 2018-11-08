@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnFavorit"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:drawable/star_off"
+            android:layout_gravity="top|end"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true" />
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="256dp"
+            android:layout_height="256dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:contentDescription="@string/imgdes"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/release"
+            android:layout_alignStart="@+id/release"
+            android:layout_below="@+id/img"
+            android:gravity="center"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            tools:text="@string/title" />
+
+        <TextView
+            android:id="@+id/release"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_below="@id/title"
+            android:layout_marginLeft="16dp"
+            android:gravity="center"
+            tools:text="@string/release" />
+
+        <ImageView
+            android:id="@+id/image_rating"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/title"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="16dp"
+            android:contentDescription="@string/rating"
+            android:src="@android:drawable/ic_menu_info_details" />
+
+        <TextView
+            android:id="@+id/rating"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_below="@id/title"
+            android:layout_toLeftOf="@id/image_rating"
+            android:gravity="center"
+            tools:text="@string/rating" />
+
+        <TextView
+            android:id="@+id/detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/release"
+            android:layout_margin="16dp"
+            tools:text="@string/detaildescription" />
+    </RelativeLayout>
+</ScrollView>
